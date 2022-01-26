@@ -1,0 +1,6 @@
+extern crate check_argument_cargo_io; 
+
+#[test]
+#[should_ panic]
+fn check_false () {
+}

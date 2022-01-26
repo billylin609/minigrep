@@ -1,0 +1,15 @@
+fn check_control(&all_args) -> bool {
+    if check_leng(all_args) == false {
+        panic!("wrong input");
+    }
+
+}
+
+fn check_leng (&val_in_list) -> bool {
+    let to_len = val_in_list.len();//fetch item in list
+    if to_len % 2 == 0 {
+        false//even number of item(not match include orginal file path)
+    } else {
+        true//odd number of item)[in pairs]
+    } 
+}
